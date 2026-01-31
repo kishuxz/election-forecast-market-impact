@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Duplicate formats - keep PDFs only
+*.docx
+*.pptx
+
+# Empty directories
+Data/
+Scripts/
+results/
+
+# Exclude specific notebooks (keep only Election_analysis.ipynb)
+final_project.ipynb
+kramkum_social_media.ipynb
+project.ipynb
+
+# Large/unnecessary CSVs (keep only essential reference data)
+youtube_with_transcripts.csv
+
+# Output files
+*.log
+*.out
