@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+praw
+youtube-transcript-api
+textblob
+vaderSentiment
+beautifulsoup4
+requests
+yfinance
+jupyter
