@@ -22,12 +22,24 @@ This project explores how media predictions and election outcomes impact India's
 - Temporal analysis of prediction accuracy
 - Visualization of sentiment trends vs. market performance
 
-## 📁 Repository Contents
+## 📁 Repository Structure
 
-- **`Election_analysis.ipynb`** - Main analysis notebook with complete workflow and visualizations
-- **CSV Data Files** - Scraped and processed data from Reddit, YouTube, and market sources
-- **`Kramkum_Assignment_3_Report.pdf`** - Comprehensive project report
-- **`Social Media Mining PPT.pdf`** - Project presentation
+```
+election-forecast-market-impact/
+├── notebooks/
+│   └── Election_analysis.ipynb    # Main analysis with visualizations
+├── data/
+│   ├── reddit/                     # Reddit posts and sentiment data
+│   ├── youtube/                    # YouTube comments and transcripts
+│   ├── market/                     # NIFTY index and correlation data
+│   └── media/                      # Exit polls and news headlines
+├── docs/
+│   ├── Kramkum_Assignment_3_Report.pdf
+│   └── Social Media Mining PPT.pdf
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
 
 ## 🚀 Getting Started
 
@@ -50,7 +62,7 @@ pip install -r requirements.txt
 
 3. Launch Jupyter Notebook:
 ```bash
-jupyter notebook Election_analysis.ipynb
+jupyter notebook notebooks/Election_analysis.ipynb
 ```
 
 ## 📚 Key Dependencies
@@ -66,7 +78,7 @@ jupyter notebook Election_analysis.ipynb
 
 ## 📈 Key Findings
 
-> **Note**: View the complete analysis and visualizations in `Election_analysis.ipynb` with all outputs preserved.
+> **Note**: View the complete analysis and visualizations in `notebooks/Election_analysis.ipynb` with all outputs preserved.
 
 The analysis reveals patterns in how social media sentiment correlates with market movements during election periods, providing insights into investor behavior and media influence.
 
